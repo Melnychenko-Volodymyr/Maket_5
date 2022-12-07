@@ -1,0 +1,854 @@
+	
+body {
+		font-family: Arimo; 
+		background-color: #F4F4F6;
+}
+
+
+@media screen and (min-width:1100px) {	
+
+	h2 {
+		font-weight: bold;
+		font-size: 36px;
+	}
+
+
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	
+	.container1 {
+		height: 988px;
+		/*max-width: 1826px;*/	
+		max-width: 1920px;			
+		background-image: url("../img/Rectangle2.png"), url("../img/Group1.png");
+	   /*	background-size: 100%; */
+		background-repeat: no-repeat;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 200px;
+	}	
+	.cont1 {
+		min-width: 192px;
+		min-height: 92px;
+		margin-left: 7%;
+		background-image: url("../img/Logo_PES1.png");
+		background-size: 100%; 
+		background-repeat: no-repeat;
+	}
+	.cont2 {
+		width: 561px;
+		margin-top: 33px;
+		margin-left: 6%; 
+		display: flex;
+		justify-content: space-between;
+	}	
+	.link_header {
+		display: block;
+		color: white;
+		font-size: 14px;
+	}	
+	.cont3 {
+		min-width: 327px;
+		min-height: 40px;
+		margin-top: 20px;
+		margin-left: 7%; 
+		background-image: url("../img/phone.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.cont4 {
+		min-width: 160px;
+		min-height: 45px;
+		margin-top: 0px;
+		margin-left: 5%; 
+	    margin-right: 10%; 
+		padding: 18px 0px 0px 35px; 
+
+	}
+	.cont5 {
+		display: none;
+	}
+	.cont6 {
+		display: none;
+	}
+	.button_callback {
+		background: transparent;
+		border: none;	
+	}
+	.text1 {
+		margin-left: 24%;
+		/*margin-top: 40px;*/
+		font-weight: bold;
+		font-size: 52px;
+		line-height: 0.3;
+		color: white;
+	}	
+	.line1 {
+		margin-left: 41%;
+		line-height: 0.1;
+		font-size: 40px;
+		color: white;
+	}	
+	.text2 {
+		margin-left: 70%;
+		/*margin-top: 40px;*/
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 0.5;
+		color: white;
+	}
+	.btn_price {
+		margin-top: 40px;
+		margin-left: 70%;
+	}	
+	.button_price {
+		color: white;
+		width: 233px;
+		height: 50px;
+		border: none;
+		background:  #FF6633;
+		background: linear-gradient(-45deg, transparent 10px, #FF6633 0);
+	}
+	.scroll {
+		width: 25px;
+		height: 169px;
+		margin-left: 150px;
+		margin-top: -40px;
+		background-image: url("../img/scroll.png");
+		background-size: 100%;
+		background-repeat: no-repeat;	
+	}
+	.vob {	
+		height: 100px;
+		margin-top: 80px;
+		margin-left: 100px;
+		display: flex;
+		align-items: center;
+	}	
+	
+	.vob_flex {
+		margin-left: 100px;
+		margin-top: 35px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.div411	{
+		width: 540px;
+		height: 290px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		background-color: white;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}	
+	.411_text {
+			margin-left: 20px;			
+	}
+	.411_pic {
+			margin-left: 20px;			
+	}
+	.text_17_bold {
+		font-weight: bold;
+		font-size: 17px;
+	}
+	.text_20_bold {
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.text_24_bold {
+		font-weight: bold;
+		font-size: 24px;
+	}
+	.text_16 {
+		font-size: 16px;
+	}
+	.text_13 {
+		font-size: 13px;
+	}
+	.text_14_bold_white {
+		font-weight: bold;
+		font-size: 14px;
+		color: white;
+		margin-bottom: 0px;
+	}
+	.text_13_bold_blue {
+		font-weight: bold;
+		font-size: 13px;
+		color: #1C9CF2;
+		margin-bottom: 0px;
+	}
+	.line2 {
+		margin-top: 0px;
+		font-size: 13px;
+		color: #FF6633;
+	}
+	.btn_show_more {
+		margin-top: 10px;
+		margin-left: 42%;
+		margin-bottom: 60px;	
+	}
+	.button_show_more {
+		border: none;	
+	}
+	.nob_flex {
+		margin-left: 100px;
+		margin-top: 35px;
+		margin-bottop: 60px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.div01 {
+		width: 280px;
+		height: 420px;
+		box-sizing: border-box;
+		margin-right: 62px;
+		margin-bottom: 30px;
+		padding-top: 30px;
+		padding-left: 35px;
+		background-color: white;
+	}
+	.opros1 {
+		max-width: 1650px;
+		height: 920px;
+		box-sizing: border-box;
+		background-color: #4EB2F5;
+		margin-top: 70px;
+		margin-bottom: 50px;
+		margin-left: 100px;
+		padding-top: 80px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	
+	.opros1_str1 {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.opros1_item {
+		margin-right: 10px;
+	}	
+	
+	.input_opros1 {
+		margin-top: 6px;
+		width: 329px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros2 {
+		margin-top: 6px;
+		width: 98%;
+		height: 100px;
+		border: none;
+	}
+	.button_opros {
+		background-color: #4EB2F5;
+		border: none;
+	}
+	.usl {
+		background-image: url("../img/Vector.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		padding-bottom: 80px;
+	}	
+	.usl_item {
+		width: 470px;
+		height: 652px;
+		box-sizing: border-box;
+		margin-right: 62px;
+		margin-bottom: 60px;	
+	}
+	.about {
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 80px;
+		box-sizing: border-box;
+		background-color: white;
+		display: flex;
+		justify-content: start;
+		flex-wrap: wrap;
+	}
+	.about_img {
+		width: 958px;
+		height: 516px;
+		background-image: url("../img/about.png");
+		background-size: 100%; 
+		background-repeat: no-repeat;
+	}
+	.about_text {
+		margin-left: 100px;
+	}	
+	.personal {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-color: white;	
+	}
+	.personal_flex {
+		margin-left: 100px;
+		margin-top: 35px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.personal_item {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.adv_cert {
+		background-image: url("../img/Vector1.svg");
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding-bottom: 20px;
+	}	
+	.advantage {
+		padding-top: 100px;
+		padding-bottom: 100px;	
+	}
+	.partner_item {
+		margin-right: 60px;
+		margin-left: 70px;
+		margin-bottom: 20px;
+	}
+	.dost {
+		display: none;
+	}	
+	.map {
+		width: 1919px;
+		height: 740px;
+		background-image: url("../img/maps.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.input_opros3 {
+		margin-top: 6px;
+		width: 450px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros4 {
+		margin-top: 6px;
+		width: 620px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros5 {
+		margin-top: 6px;
+		width: 760px;
+		height: 50px;
+		border: none;
+	}
+	.footer {
+		height: 200px;
+		width: 100%;
+		padding-top: 40px;	
+		background: black;
+		display: grid;
+		grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr 2fr 1.5fr 1.5fr 0.5fr;
+		grid-template-rows: 2fr 1fr;
+		grid-template-areas:
+			". catalog dostavka uslugi novosti kontakty opr_listy pricelist email tel1 tel2 ." 
+			". copyright copyright . counts . . . . . clickon .";
+	}
+	.link_footer {
+		display: block;
+		color: white;
+		font-size: 14px;
+	} 
+	.catalog {
+		grid-area: catalog;
+	}
+	.dostavka {
+		grid-area: dostavka;
+	}
+	.uslugi {
+		grid-area: uslugi;
+	}
+	.novosti {
+		grid-area: novosti;
+	}
+	.kontakty {
+		grid-area: kontakty;
+	}
+	.opr_listy {
+		grid-area: opr_listy;
+	}
+	.pricelist {
+		grid-area: pricelist;
+	}
+	.email {
+		grid-area: email;
+		margin-top: -15px;
+	}
+	.tel1 {
+		grid-area: tel1;
+		margin-top: -15px;
+	}
+	.tel2 {
+		grid-area: tel2;
+		margin-top: -15px;
+	}
+	.copyright {
+		grid-area: copyright;
+
+		background-image: url("../img/copyright.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.counts {
+		grid-area: counts;
+		background-image: url("../img/counts.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}	
+	.clickon {
+		grid-area: clickon;
+		width: 220px;
+		background-image: url("../img/clickon.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}	
+	
+}
+
+
+
+@media screen and (max-width:1100px) {	
+
+	h2 {
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	
+	.container1 {
+		height: 800px;
+		max-width: 1100px;			
+		background-image: url("../img/Rectangle2.png"), url("../img/Group1.png");
+		background-repeat: no-repeat;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 200px;
+	}	
+	.cont1 {
+		min-width: 192px;
+		min-height: 92px;
+		margin-top: 20px;
+		margin-left: 7%;
+		background-image: url("../img/Logo_PES1.png");
+		background-size: 70%; 
+		background-repeat: no-repeat;
+	}
+	.cont2 {
+		display: none;
+	}			
+	.cont3 {
+		display: none;
+	}	
+	.cont4 {
+		display: none;
+	}
+	.cont5 {
+		min-width: 40px;
+		min-height: 45px;
+		margin-top: 30px;
+		margin-left: 4%; 
+	    margin-right: 10%; 
+	}
+	.cont6 {
+		min-width: 40px;
+		min-height: 45px;
+		margin-top: 35px;
+		margin-right: 10%; 
+	}
+	.button_callback {
+		background: transparent;
+		border: none;	
+	}
+	.button_callback1 {
+		background: transparent;
+		border: none;	
+	}	
+	.button_burger {
+		background: transparent;
+		border: none;	
+	}
+	.text1 {
+		margin-left: 5%;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 0.3;
+		color: white;
+	}	
+	.line1 {
+		margin-left: 5%;
+		line-height: 0.1;
+		font-size: 32px;
+		color: white;
+	}	
+	.text2 {
+		margin-left: 5%;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 0.5;
+		color: white;
+	}
+	.btn_price {
+		margin-top: 120px;
+		margin-left: 20%;
+	}	
+	.button_price {
+		color: white;
+		width: 233px;
+		height: 50px;
+		border: none;
+		background:  #FF6633;
+		background: linear-gradient(-45deg, transparent 10px, #FF6633 0);
+	}
+	.scroll {
+		display: none;
+	}
+	.vob {	
+		height: 100px;
+		margin-top: 80px;
+		margin-left: 7%;
+		display: flex;
+		align-items: center;
+	}	
+	
+	.vob_flex {
+		margin-left: 7%;
+		margin-top: 35px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.div411	{
+		width: 300px;
+		height: 500px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		background-color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
+	}	
+	.411_text {
+		margin-left: 20px;
+		order: 2;		
+	}
+	.411_pic {
+		margin-left: 20px;
+		order: 1;	
+	}
+	.text_17_bold {
+		font-weight: bold;
+		font-size: 17px;
+	}
+	.text_20_bold {
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.text_24_bold {
+		font-weight: bold;
+		font-size: 24px;
+	}
+	.text_16 {
+		font-size: 16px;
+	}
+	.text_13 {
+		font-size: 13px;
+	}
+	.text_14_bold_white {
+		font-weight: bold;
+		font-size: 14px;
+		color: white;
+		margin-bottom: 0px;
+	}
+	.text_13_bold_blue {
+		font-weight: bold;
+		font-size: 13px;
+		color: #1C9CF2;
+		margin-bottom: 0px;
+	}
+	.line2 {
+		margin-top: 0px;
+		font-size: 13px;
+		color: #FF6633;
+	}
+	.btn_show_more {
+		margin-top: 10px;
+		margin-left: 7%;
+		margin-bottom: 60px;	
+	}
+	.button_show_more {
+		border: none;	
+	}
+	.nob_flex {
+		margin-left: 7%;
+		margin-top: 35px;
+		margin-bottop: 60px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.div01 {
+		width: 300px;
+		height: 420px;
+		box-sizing: border-box;
+		margin-right: 62px;
+		margin-bottom: 30px;
+		padding-top: 30px;
+		padding-left: 35px;
+		background-color: white;
+	}
+	.opros1 {
+		max-width: 90%;
+		height: 900px;
+		box-sizing: border-box;
+		background-color: #4EB2F5;
+		margin-top: 70px;
+		margin-bottom: 50px;
+		margin-left: 5%;
+		padding-top: 40px;
+		padding-left: 10px;
+
+	}
+	
+	.opros1_str1 {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.opros1_item {
+		margin-left: 0px;
+		margin-right: 10px;
+	}	
+	
+	.input_opros1 {
+		margin-top: 6px;
+		margin-right: 10px;
+		width: 300px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros2 {
+		margin-top: 6px;
+		width: 300px;
+		height: 100px;
+		border: none;
+	}
+	.opros2 {
+		display: none;
+	}	
+	.button_opros {
+		background-color: #4EB2F5;
+		border: none;
+	}
+	.usl {
+		background-image: url("../img/Vector.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		padding-bottom: 80px;
+	}	
+	.usl_item {
+		width: 350px;
+		height: 652px;
+		box-sizing: border-box;
+		margin-right: 62px;
+		margin-bottom: 60px;	
+	}
+	.about {
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		box-sizing: border-box;
+		background-color: white;
+		display: flex;
+		justify-content: start;
+		flex-wrap: wrap;
+	}
+	.about_img {
+		width: 350px;
+		height: 200px;
+		background-image: url("../img/about.png");
+		background-size: 100%; 
+		background-repeat: no-repeat;
+	}
+	.about_text {
+		margin-left: 7%;
+	}	
+	.personal {
+		padding-top: 20px;
+		padding-bottom: 100px;
+		background-color: white;	
+	}
+	.personal_flex {
+		margin-left: 10%;
+		margin-top: 35px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.personal_item {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.adv_cert {
+		background-image: url("../img/Vector1.svg");
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding-bottom: 20px;
+	}	
+	.advantage {
+		padding-top: 100px;
+		padding-bottom: 100px;	
+	}
+	.partner_item {
+		margin-right: 60px;
+		margin-left: 70px;
+		margin-bottom: 20px;
+	}
+	.dost {
+		padding: 0 7% 0 7%;
+	}
+	.map {
+		width: 100%;
+		height: 450px;
+		background-image: url("../img/maps.png");
+		background-size: 300%;
+		background-repeat: no-repeat;
+	}
+	.input_opros3 {
+		margin-top: 6px;
+		width: 300px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros4 {
+		margin-top: 6px;
+		width: 300px;
+		height: 50px;
+		border: none;
+	}
+	.input_opros5 {
+		margin-top: 6px;
+		width: 300px;
+		height: 50px;
+		border: none;
+	}
+    .footer {
+		width: 100%;
+		padding-top: 40px;	
+		background: black;
+		display: grid;
+		grid-template-columns: 1fr 10fr 1fr; 
+		grid-template-rows: 1fr 1fr 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 2.5fr 2fr 2fr 2fr ;
+		grid-template-areas:
+			". tel1 ." 
+			". tel2 ."
+			". email ."
+			". catalog ."
+			". dostavka ."
+			". uslugi ."
+			". novosti ."
+			". kontakty ."
+			". opr_listy ."
+			". pricelist ."
+			". copyright ."
+			". clickon ."
+			". counts .";	
+	}	
+	
+	.link_footer {
+		display: block;
+		color: white;
+		font-size: 14px;
+	} 
+	.catalog {
+		grid-area: catalog;
+	}
+	.dostavka {
+		grid-area: dostavka;
+	}
+	.uslugi {
+		grid-area: uslugi;
+	}
+	.novosti {
+		grid-area: novosti;
+	}
+	.kontakty {
+		grid-area: kontakty;
+	}
+	.opr_listy {
+		grid-area: opr_listy;
+	}
+	.pricelist {
+		grid-area: pricelist;
+	}
+	.email {
+		grid-area: email;
+	}
+	.tel1 {
+		grid-area: tel1;
+	}
+	.tel2 {
+		grid-area: tel2;
+	}
+	.copyright {
+		grid-area: copyright;
+
+		background-image: url("../img/copyright.png");
+		background-size: 70%;
+		background-repeat: no-repeat;
+	}
+	.counts {
+		grid-area: counts;
+		background-image: url("../img/counts.png");
+		background-size: 70%;
+		background-repeat: no-repeat;
+	}	
+	.clickon {
+		grid-area: clickon;
+		background-image: url("../img/clickon.png");
+		background-size: 70%;
+		background-repeat: no-repeat;
+	}	
+		
+	
+}
+
+		
+
+	

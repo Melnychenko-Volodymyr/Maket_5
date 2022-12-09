@@ -186,6 +186,10 @@ button:hover {
 		font-weight: bold;
 		font-size: 24px;
 	}
+	.text_usl_bold {
+		font-weight: bold;
+		font-size: 24px;
+	}
 	.text_16 {
 		font-size: 16px;
 	}
@@ -236,7 +240,7 @@ button:hover {
 	}
 	.opros1 {
 		max-width: 1650px;
-		height: 920px;
+		/*height: 920px;*/
 		box-sizing: border-box;
 		background-color: #4EB2F5;
 		margin-top: 70px;
@@ -285,6 +289,30 @@ button:hover {
 		margin-right: 62px;
 		margin-bottom: 60px;	
 	}
+	.img_usl1 {
+		width: 450px;
+		height: 450px;
+		background-image: url("../img/usl1.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img_usl2 {
+		width: 450px;
+		height: 450px;
+		background-image: url("../img/usl2.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img_usl3 {
+		width: 450px;
+		height: 450px;
+		background-image: url("../img/usl3.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 	.about {
 		width: 100%;
 		padding-top: 100px;
@@ -314,6 +342,7 @@ button:hover {
 		margin-left: 100px;
 		margin-top: 35px;
 		display: flex;
+		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
 	}
@@ -341,7 +370,6 @@ button:hover {
 		display: none;
 	}	
 	.map {
-		display: none;
 		width: 1800px;
 		height: 740px;
 		background-image: url("../img/maps.png");
@@ -376,7 +404,7 @@ button:hover {
 		grid-template-rows: 2fr 1fr;
 		grid-template-areas:
 			". catalog dostavka uslugi novosti kontakty opr_listy pricelist email tel1 tel2 ." 
-			". copyright copyright . counts . . . . . clickon .";
+			". copyright copyright copyright . counts .  . . clicon clickon .";
 	}
 	.link_footer {
 		display: block;
@@ -418,23 +446,17 @@ button:hover {
 	}
 	.copyright {
 		grid-area: copyright;
-
-		background-image: url("../img/copyright.png");
-		background-size: 100%;
-		background-repeat: no-repeat;
+		margin-top: -15px;
 	}
 	.counts {
 		grid-area: counts;
-		background-image: url("../img/counts.png");
+	/*	background-image: url("../img/counts.png");
 		background-size: 100%;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat; */
 	}	
 	.clickon {
 		grid-area: clickon;
-		width: 220px;
-		background-image: url("../img/clickon.png");
-		background-size: 100%;
-		background-repeat: no-repeat;
+		margin-top: -15px;
 	}	
 	
 }
@@ -598,6 +620,10 @@ button:hover {
 		font-weight: bold;
 		font-size: 24px;
 	}
+	.text_usl_bold {
+		font-weight: bold;
+		font-size: 22px;
+	}
 	.text_16 {
 		font-size: 16px;
 	}
@@ -629,9 +655,9 @@ button:hover {
 		border: none;	
 	}
 	.nob_flex {
-		margin-left: 20px;
+		margin-left: 12%;
 		margin-top: 35px;
-		margin-bottop: 60px;
+		margin-bottom: 60px;
 		display: flex; 
 		justify-content: center;
 		flex-wrap: wrap; 
@@ -648,7 +674,7 @@ button:hover {
 	}
 	.opros1 {
 		max-width: 90%;
-		height: 900px;
+	/*	height: 900px; */
 		box-sizing: border-box;
 		background-color: #4EB2F5;
 		margin-top: 70px;
@@ -661,8 +687,9 @@ button:hover {
 	
 	.opros1_str1 {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 		flex-wrap: wrap;
+		margin-left: 5%;
 	}
 	.opros1_item {
 		margin-left: 0px;
@@ -687,25 +714,52 @@ button:hover {
 		border: none;
 	}
 	.opros2 {
-		display: none;
+	/*	display: none;*/
 	}	
 	.button_opros {
 		background-color: #4EB2F5;
 		border: none;
 	}
 	.usl {
+		width: 100%;
 		background-image: url("../img/Vector.svg");
 		background-position: center;
 		background-repeat: no-repeat;
+		margin-left: 10px;
 		padding-bottom: 80px;
 	}	
 	.usl_item {
-		width: 470px;
-		height: 652px;
+		width: 300px;
+		height: 600px;
 		box-sizing: border-box;
-		margin-right: 5px;
-		margin-left: 5px;
+		margin-right: 10px;
+		margin-left: 10px;
 		margin-bottom: 60px;	
+	}
+
+	.img_usl1 {
+		width: 280px;
+		height: 280px;
+		background-image: url("../img/usl1.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img_usl2 {
+		width: 280px;
+		height: 280px;
+		background-image: url("../img/usl2.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img_usl3 {
+		width: 280px;
+		height: 280px;
+		background-image: url("../img/usl3.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	.about {
 		width: 100%;
@@ -720,13 +774,25 @@ button:hover {
 	}
 	.about_img {
 		width: 100%;
-		height: 500px;
-		background-color: aqua;
+		height: 600px;		
 	/*	margin-left: auto;
 		margin-right: auto; */
 		background-image: url("../img/about.png");
 		background-size: 100%; 
 		background-repeat: no-repeat; 
+	}	
+
+	@media screen and (max-width:700px) {
+		.about_img {
+			width: 100%;
+			height: 400px;		
+			/*	margin-left: auto;
+			margin-right: auto; */
+			background-image: url("../img/about.png");
+			background-size: 100%; 
+			background-repeat: no-repeat; 
+		}	
+		
 	}
 	.about_text {
 		margin-left: 7%;
@@ -740,6 +806,7 @@ button:hover {
 		margin-left: 10%;
 		margin-top: 35px;
 		display: flex;
+		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
 	}
@@ -790,6 +857,10 @@ button:hover {
 		width: 300px;
 		height: 50px;
 		border: none;
+	}
+	.comm1 {
+		width: 90%;
+		margin-left: 5%;
 	}
     .footer {
 		width: 100%;
@@ -852,21 +923,14 @@ button:hover {
 	.copyright {
 		grid-area: copyright;
 
-		background-image: url("../img/copyright.png");
-		background-size: 70%;
-		background-repeat: no-repeat;
-	}
+	}	
 	.counts {
 		grid-area: counts;
-		background-image: url("../img/counts.png");
-		background-size: 70%;
-		background-repeat: no-repeat;
+		
 	}	
 	.clickon {
 		grid-area: clickon;
-		background-image: url("../img/clickon.png");
-		background-size: 70%;
-		background-repeat: no-repeat;
+		
 	}	
 		
 	

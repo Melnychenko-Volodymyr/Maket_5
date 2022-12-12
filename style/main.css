@@ -370,12 +370,26 @@ button:hover {
 		display: none;
 	}	
 	.map {
-		width: 1800px;
-		height: 740px;
-		background-image: url("../img/maps.png");
+		width: 100%;
+		height: 900px;
+		background-image: url("../img/maps1.png");
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
+
+	.dost1 {
+		width: 400px;
+		height: 290px;
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid grey;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 60%;
+		position: relative;
+		top: 50px;
+	  }
+		
 	.input_opros3 {
 		margin-top: 6px;
 		width: 450px;
@@ -839,6 +853,9 @@ button:hover {
 		background-image: url("../img/maps.png");
 		background-size: 300%;
 		background-repeat: no-repeat;
+	}
+	.dost1 {
+		display: none;
 	}
 	.input_opros3 {
 		margin-top: 6px;

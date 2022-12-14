@@ -47,9 +47,11 @@ button:hover {
 		min-width: 192px;
 		min-height: 92px;
 		margin-left: 7%;
-		background-image: url("../img/Logo_PES1.png");
-		background-size: 100%; 
-		background-repeat: no-repeat;
+			
+	}
+	.button_logo {
+		background: transparent;
+		border: none;
 	}
 	.cont2 {
 		width: 561px;
@@ -448,15 +450,15 @@ button:hover {
 	}
 	.email {
 		grid-area: email;
-		margin-top: -15px;
+		margin-top: 0px;
 	}
 	.tel1 {
 		grid-area: tel1;
-		margin-top: -15px;
+		margin-top: 0px;
 	}
 	.tel2 {
 		grid-area: tel2;
-		margin-top: -15px;
+		margin-top: 0px;
 	}
 	.copyright {
 		grid-area: copyright;
@@ -472,7 +474,11 @@ button:hover {
 		grid-area: clickon;
 		margin-top: -15px;
 	}	
-	
+	.button_footer {
+		color: white;
+		background-color: black;
+		border: none;
+	}
 }
 
 
@@ -515,9 +521,11 @@ button:hover {
 		min-height: 92px;
 		margin-top: 20px;
 		margin-left: 7%;
-		background-image: url("../img/Logo_PES1.png");
-		background-size: 70%; 
-		background-repeat: no-repeat;
+		
+	}
+	.button_logo {
+		background: transparent;
+		border: none;
 	}
 	.cont2 {
 		display: none;
@@ -531,14 +539,14 @@ button:hover {
 	.cont5 {
 		min-width: 40px;
 		min-height: 45px;
-		margin-top: 30px;
+		margin-top: 45px;
 		margin-left: 4%; 
 	    margin-right: 10%; 
 	}
 	.cont6 {
 		min-width: 40px;
 		min-height: 45px;
-		margin-top: 35px;
+		margin-top: 50px;
 		margin-right: 10%; 
 	}
 	.button_callback {
@@ -735,7 +743,7 @@ button:hover {
 		border: none;
 	}
 	.usl {
-		width: 100%;
+		width: 95%;
 		background-image: url("../img/Vector.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -881,11 +889,12 @@ button:hover {
 	}
     .footer {
 		width: 100%;
+		height: 700px;
 		padding-top: 40px;	
 		background: black;
 		display: grid;
 		grid-template-columns: 1fr 10fr 1fr; 
-		grid-template-rows: 1fr 1fr 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 2.5fr 2fr 2fr 2fr ;
+		grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 2.5fr 2fr 2fr 2fr ;
 		grid-template-areas:
 			". tel1 ." 
 			". tel2 ."
@@ -949,7 +958,11 @@ button:hover {
 		grid-area: clickon;
 		
 	}	
-		
+	.button_footer {
+		color: white;
+		background-color: black;
+		border: none;
+	}	
 	
 }
 
